@@ -21,37 +21,12 @@ Afterwards, we did Machine Learning on the data by adpoting 6 different **Regres
 3.. Ridge Regression
 4. Lasso Regression
 
-## Getting Started
-
-### Prerequisites
-
-If you would like to download and run all the data analysis and prediction models on your own machine, it is recommended to use to **Anaconda** and **Jupyter Notebook**. If you use **Anaconda** most of the packages used in this project are pre-installed except the following few:
-
-+ Graphviz
-+ Langdetect
-+ Wordcloud
-+ TreeInterpreter
-
-### Installing and running
-
-Install the required packages by running the following commands in your terminal:
-
-```
-pip install graphviz
-pip install langdetect
-pip install wordcloud
-pip install xgboost
-pip install catboost
-pip install treeinterpreter
-```
-
 
 You can then open the following files with **Jupyter Notebook**:
 ```
 Exploratory Analysis Problem 1.ipynb
 Exploratory Analysis Problem 2.ipynb
 Exploratory Analysis Problem 3.ipynb 
-Machine Learning Models.ipynb
 ``` 
 
 ## Built with
