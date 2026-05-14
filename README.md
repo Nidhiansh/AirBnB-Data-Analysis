@@ -18,7 +18,7 @@ Afterwards, we did Machine Learning on the data by adpoting 6 different **Regres
 
 1. Linear Regression
 2. Random Forrest
-3.. Ridge Regression
+3. Ridge Regression
 4. Lasso Regression
 
 
