@@ -18,12 +18,8 @@ Afterwards, we did Machine Learning on the data by adpoting 6 different **Regres
 
 1. Linear Regression
 2. Random Forrest
-3. XGBoost
-4. CatBoost
-5. Ridge Regression
-6. Lasso Regression
-
-We partitioned the data into train and test sets and evaluated the models on their prediction accuracy. Once we found the most accurate prediction model, we used that model in a library called **TreeInterpreter** which decomposed the prediction into a sum of contributions from each feature: `Prediction = Bias + Feature1 x Contribution1 + … + FeatureN x ContributionN`. We used this to find the most important features that affected the price of a listing.
+3.. Ridge Regression
+4. Lasso Regression
 
 ## Getting Started
 
@@ -34,8 +30,6 @@ If you would like to download and run all the data analysis and prediction model
 + Graphviz
 + Langdetect
 + Wordcloud
-+ XGBoost
-+ CatBoost
 + TreeInterpreter
 
 ### Installing and running
@@ -66,8 +60,4 @@ Machine Learning Models.ipynb
 + [Pandas](https://pandas.pydata.org/) - Main library used to manipulate the datasets
 + [Scikit-learn](https://scikit-learn.org/stable/) - Main library used for machine learning
 + [Matplotlib](https://matplotlib.org/) - Used for graph plots and visualizations
-+ [Python NLTK](https://www.nltk.org/) - Used during exploratory analysis to get further insights into the textual data
-+ [XGBoost](https://xgboost.readthedocs.io/en/latest/) - Used to implement gradient boost decision trees
-+ [CatBoost](https://catboost.ai/) - Used to implement gradient boost decision trees
-+ [TreeInterpreter](https://pypi.org/project/treeinterpreter/) - Used to decompose predictions into a sum of contributions from each feature
 
